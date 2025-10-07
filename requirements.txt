@@ -1,0 +1,9 @@
+flask
+google-generativeai
+sqlalchemy
+pytesseract
+pillow
+pdf2image
+python-docx
+python-dotenv
+pdfplumber

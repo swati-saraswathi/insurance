@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+  <h1>Upload Claim Documents</h1>
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".pdf,.jpg,.png,.docx" required>
+    <button type="submit">Process Claim</button>
+  </form>
+</body></html>

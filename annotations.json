@@ -1,0 +1,50 @@
+[
+  {
+    "doc_path": "samples/policy_doc_1.pdf",
+    "extracted": {
+      "policy_number": "POL-261754",
+      "policy_holder": "Geeta Kapoor",
+      "claim_type": "Medical, Vehicle, Property Damage",
+      "effective_date": "2024-12-06",
+      "diagnosis_codes": [],
+      "policy_limit": 200000.0,
+      "risk_indicators": []
+    }
+  },
+  {
+    "doc_path": "samples/claim2.pdf",
+    "extracted": {
+      "policy_number": "CLM-67890",
+      "policy_holder": "Jane Smith",
+      "claim_type": "Auto",
+      "effective_date": "2023-11-01",
+      "diagnosis_codes": [],
+      "policy_limit": 3000.0,
+      "risk_indicators": ["High amount"]
+    }
+  },
+  {
+    "doc_path": "samples/claim4.pdf",
+    "extracted": {
+      "policy_number": "CLM-99999",
+      "policy_holder": null,
+      "claim_type": null,
+      "effective_date": null,
+      "diagnosis_codes": [],
+      "policy_limit": 0.0,
+      "risk_indicators": ["Missing critical fields"]
+    }
+  },
+  {
+    "doc_path": "samples/claim5.pdf",
+    "extracted": {
+      "policy_number": "CLM-ABC12",
+      "policy_holder": "Mary J0nes",
+      "claim_type": null,
+      "effective_date": "2023-12-25",
+      "diagnosis_codes": ["J45.909"],
+      "policy_limit": 7500.0,
+      "risk_indicators": ["Partial data", "Possible OCR error"]
+    }
+  }
+]

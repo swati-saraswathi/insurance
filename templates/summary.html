@@ -1,0 +1,7 @@
+<h1>Claim Summary: {{ claim.claim_number }}</h1>
+<div>{{ claim.summary | safe }}</div>
+<p>Fraud Score: {{ claim.fraud_score }}/100 {% if claim.fraud_score > 70 %}🚩 High Risk{% elif claim.fraud_score > 50 %}⚠️ Medium Risk{% else %}Low Risk{% endif %}</p>
+<pre>{{ claim.extracted_data | tojson }}</pre>
+{% if 'Extraction failed' in claim.extracted_data.risk_indicators %}
+<p style="color:red">Warning: Extraction incomplete. Manual review required.</p>
+{% endif %}
