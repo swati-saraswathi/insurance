@@ -1,4 +1,5 @@
-**#AI-Powered Insurance Claims Processing System**
+**AI-Powered Insurance Claims Processing System**
+
 Overview
 This project is a prototype for an AI-powered insurance claims processing system that automates the extraction, analysis, and summarization of claim data from various document types (PDFs, images, DOCX). Leveraging OCR (Tesseract with Poppler), Google Gemini for structured data extraction, and a Flask-based web interface, it generates summaries and fraud scores for adjusters.
 
